@@ -21,6 +21,10 @@
     <string name="banana_version_default">Unknown</string>
     <string name="keywords_banana_version">banana version</string>
 
+    <!-- BananaGear -->
+    <string name="bananagear_title">Banana Gear</string>
+    <string name="bananagear_summary">Fulfill your Gear!</string>
+
     <string name="theme_category">Theming</string>
     <string name="theme_select_title">Themes</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
