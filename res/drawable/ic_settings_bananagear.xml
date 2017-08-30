@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2021 BananaDroid
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="96.0"
+    android:viewportHeight="96.0">
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M910 652C 933 696 939 737 921 772C 898 818 867 851 832 877C 786 910 737 926 689 935C 633 949 582 949 535 936C 399 912 262 822 193 662C 205 641 218 632 234 633L234 633L274 656C 346 694 423 720 505 739C 594 752 674 745 741 708C 790 682 824 650 844 613C 859 647 855 671 910 652z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M291 626C 480 720 625 730 734 672C 568 673 423 585 293 438C 281 432 264 439 245 453C 239 510 254 568 291 626z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M765 631C 616 659 480 578 350 448C 337 397 336 347 353 301C 373 291 391 288 402 295C 521 493 642 611 765 631z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="0.9"
+        android:pathData="M680 56C 1077 192 1162 688 825 932C 650 1053 462 1051 264 945C 112 842 42 679 46 533C 123 1188 1063 1016 973 430C 947 252 846 130 680 56z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M979 682L961 720C 869 707 811 657 794 559L794 559L882 535C 888 608 918 658 979 682z" />
+</vector>
