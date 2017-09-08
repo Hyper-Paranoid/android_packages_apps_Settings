@@ -240,4 +240,8 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    /**
+     * Activity for Banana Gear
+     */
+    public static class BananaGearActivity extends SettingsActivity { /* empty */ }
 }
