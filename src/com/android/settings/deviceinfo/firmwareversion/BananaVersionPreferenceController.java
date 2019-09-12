@@ -34,7 +34,8 @@ public class BananaVersionPreferenceController extends BasePreferenceController 
 
     private static final Uri INTENT_URI_DATA = Uri.parse("https://github.com/bananadroid/");
     private static final String TAG = "bananaDialogCtrl";
-    private static final BANANA_VERSION_PROPERTY = "ro.banana.version";
+    private static final String ROM_VERSION_PROP = "ro.banana.build.version";
+    private static final String ROM_RELEASETYPE_PROP = "ro.banana.build.type";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
     public BananaVersionPreferenceController(Context context, String preferenceKey) {
@@ -46,9 +47,14 @@ public class BananaVersionPreferenceController extends BasePreferenceController 
     }
 
     public CharSequence getSummary() {
-        String banana = SystemProperties.get(BANANA_VERSION_PROPERTY,
+        String bananaVersion = SystemProperties.get(ROM_VERSION_PROP,
                 mContext.getString(R.string.device_info_default));
-        return banana;
+        String bananaReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        if (!bananaVersion.isEmpty() && !bananaReleasetype.isEmpty())
+            return bananaVersion + " | " + bananaReleasetype;
+        else
+            return mContext.getString(R.string.banana_version_default);
     }
 
     public boolean handlePreferenceTreeClick(Preference preference) {
