@@ -21,4 +21,9 @@
     <string name="banana_version_default">Unknown</string>
     <string name="keywords_banana_version">banana version</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
