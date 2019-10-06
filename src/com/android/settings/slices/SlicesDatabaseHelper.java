@@ -235,6 +235,6 @@ public class SlicesDatabaseHelper extends SQLiteOpenHelper {
 
     @VisibleForTesting
     String getBuildTag() {
-        return Build.BANANA_FINGERPRINT;
+        return Build.DATE;
     }
 }
