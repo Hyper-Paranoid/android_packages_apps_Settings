@@ -20,6 +20,7 @@
     <string name="banana_version">BananaDroid version</string>
     <string name="banana_version_default">Unknown</string>
     <string name="keywords_banana_version">banana version</string>
+    <string name="about_device_name">Device</string>
 
     <!-- Black theme -->
     <string name="darker_theme_enable">Enable black theme</string>
