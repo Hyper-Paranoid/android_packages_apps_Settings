@@ -21,4 +21,8 @@
     <string name="banana_version_default">Unknown</string>
     <string name="keywords_banana_version">banana version</string>
 
+    <string name="theme_category">Theming</string>
+    <string name="theme_select_title">Themes</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+
 </resources>
