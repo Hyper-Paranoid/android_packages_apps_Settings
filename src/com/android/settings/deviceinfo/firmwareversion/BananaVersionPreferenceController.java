@@ -36,6 +36,7 @@ public class BananaVersionPreferenceController extends BasePreferenceController 
     private static final String TAG = "bananaDialogCtrl";
     private static final String ROM_VERSION_PROP = "ro.banana.build.version";
     private static final String ROM_RELEASETYPE_PROP = "ro.banana.build.type";
+    private static final String ROM_CODENAME_PROP = "ro.nad.build_codename";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
     public BananaVersionPreferenceController(Context context, String preferenceKey) {
@@ -51,8 +52,10 @@ public class BananaVersionPreferenceController extends BasePreferenceController 
                 mContext.getString(R.string.device_info_default));
         String bananaReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
+        String bananaCodename =  SystemProperties.get(ROM_CODENAME_PROP,
+                this.mContext.getString(R.string.device_info_default));
         if (!bananaVersion.isEmpty() && !bananaReleasetype.isEmpty())
-            return bananaVersion + " | " + bananaReleasetype;
+            return bananaVersion + " | " + bananaCodename + " | " + bananaReleasetype;
         else
             return mContext.getString(R.string.banana_version_default);
     }
