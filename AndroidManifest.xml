@@ -3421,7 +3421,7 @@
         <!-- BananaGear -->
         <activity android:name="Settings$BananaGearActivity"
             android:label="@string/bananagear"
-            android:icon="@drawable/ic_settings_bananagear"
+            android:icon="@drawable/ic_homepage_banana"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.banana.settings.BananaGear" />
