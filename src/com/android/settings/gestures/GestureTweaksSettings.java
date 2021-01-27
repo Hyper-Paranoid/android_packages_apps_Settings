@@ -263,7 +263,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.OWLSNEST;
+        return MetricsProto.MetricsEvent.BANANADROID;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

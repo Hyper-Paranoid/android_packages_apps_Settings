@@ -40,7 +40,7 @@ public class DoubleTapLockscreenSettings extends DashboardFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.OWLSNEST;
+        return MetricsProto.MetricsEvent.BANANADROID;
     }
 
     @Override
